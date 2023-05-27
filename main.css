@@ -14,9 +14,9 @@
 
 :root{
     --primary-color: #000000;
+    --secondary-color: #B5AFA9;
     --white-color: #ffffff;
     --background-color-1: #fbf4ea;
-    --secondary-color: #B5AFA9;
     --background-color-2: #f7f6f3;
     --background-color-3: #FFF8F0;
     --background-color-4: #EDE6E0;
@@ -359,11 +359,9 @@ ul li{
     width: 480px;
     justify-content: center;
     align-items: center;
-    background-color: #CBA797;
+
 
 }
-
-
 
 .czas {
     font-family: var(--title-font-family);
@@ -450,8 +448,6 @@ ul li{
     width: 70%;
     height: auto;
     position: relative;
-
-
 }
 
 .container-timeline ul::after{
@@ -459,13 +455,12 @@ ul li{
     content: '';
     width: 2px;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgb(228, 223, 223), rgb(145, 31, 31));
+    background-image: linear-gradient(to bottom, rgb(228, 223, 223), rgb(203, 167, 151));
     left: 50%;
 }
 
 .timeline-title{
     margin: 0;
-
 }
 
 .container-timeline ul {
@@ -478,7 +473,7 @@ ul li{
     width: 40%;
     height: auto;
     padding: 15px 20px;
-    background-color: var(--background-color-3);
+    background-color: var(--background-color-2);
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
     border-radius: 10px;
     margin-bottom: 30px;
@@ -520,7 +515,7 @@ ul li{
     width: 100px;
     border-radius: 10px;
     place-items: center;
-    background-color: var(--white-color);
+    background-color: var(--background-color-2);
     display: grid;
     height: 30px; 
     margin: 0;
@@ -541,7 +536,7 @@ ul li{
 .container-timeline ul li .circle {
     width: 30px;
     height: 30px;
-    background-color: rgb(145, 31, 31);
+    background-color: var(--background-color-2);
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -552,7 +547,7 @@ ul li{
     content: '';
     width: 15px;
     height: 15px;
-    background-color: pink;
+    background-color: var(--white-color);
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -567,7 +562,7 @@ ul li{
 }
 
 .container-timeline ul li:nth-child(even) .circle {
-    left: -104px;
+    left: -132px;
     top: 50%;
     transform: translate(50%, -50%);
 }
@@ -607,9 +602,8 @@ ul li{
 
     .container-timeline ul li:nth-child(odd) .circle{
         right: -10px;
-
-        transform: translateX(50%, -50%);}
-
+        transform: translateX(50%, -50%);
+    }
 
     .container-timeline ul li:nth-child(even){
         transform: translateX(0);
