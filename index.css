@@ -78,6 +78,7 @@ body{
     cursor: pointer;
     position: relative;
     -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  
   }
 
@@ -142,6 +143,7 @@ body{
         cursor: pointer;
         position: relative;
         -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
     .lang:hover{
     cursor: pointer;
