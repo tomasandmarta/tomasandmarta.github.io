@@ -652,10 +652,104 @@ ul li{
 .section-six{
     background-color: var(--background-color-2);
     padding: 50px;
-    height: 600px;
+    box-sizing: border-box;
     position: relative; 
 
 }
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    margin: 0 auto;
+    padding: 14px;
+    width: 50%;
+
+}
+
+.accordion-item::after{
+    background-image: url(images/gold_background2.avif);
+    width: 48%;
+    height: 2px;
+    /* border-bottom: 1px solid #c5169f; */
+    position: absolute;
+    content: '';
+    
+}
+
+.accordion-item button {
+    position: relative;
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    color:var(--primary-color);
+    font-size: 1.15rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.accordion-item button:hover {
+    cursor: pointer;
+}
+
+.accordion-item button span {
+    font-weight: 550;
+}
+
+.up{
+    height: 17px;
+    width: 17px;
+}
+
+
+.accordion-content p{
+    font-size: 1rem;
+    padding-bottom: 20px;
+} 
+
+.accordion-button{
+    display: flex !important;
+    justify-content: space-between !important;
+    height: 20%;
+}
+
+.rotate{
+    transition: 0.6s;
+    transform: 0.6s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    html, body{
+        overflow-x: hidden !important;
+    }
+    .section-six{
+        margin: 0px !important;
+        align-items: center;
+    }
+
+    .accordion{
+        width: 100%;
+    }
+
+    .accordion-item::after{
+        width: 85%;
+    }
+}
+
+
+
+
+/* Section Kontakt */
+
 
 
 .contact-info{
