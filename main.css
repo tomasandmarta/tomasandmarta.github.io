@@ -45,6 +45,11 @@
     --font-weight-bold: 700;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+
+}
 body, main{
     background: var(--white-color);
     font-family: var(--body-font-family);
@@ -427,6 +432,7 @@ ul li{
     height: auto;
     max-height: 120px;
     width: 100%;
+
 }
 
 .section-three, .heading{
@@ -620,7 +626,7 @@ ul li{
 
 .section-four{
     background-color: var(--background-color-4);
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 50px 20px;
     height: 600px;
     position: relative; 
 
@@ -641,17 +647,38 @@ ul li{
     margin: 0 25px 0 25px;
 }
 
+/* Section Dictionary */
+
 .section-five{
     background-color: var(--white-color);
-    padding: 50px;
-    height: 600px;
-    position: relative; 
+    padding: 20px 150px 50px 150px;
+    position: relative;
 
 }
 
+.dictionary {
+    width: 100%;
+    margin: auto;
+    column-gap: 3em;
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 1px dotted  rgb(203, 167, 151);
+    padding-left: 50px;
+}
+
+.dictionary-first-h6{
+
+    margin-top: 0;
+
+}
+.dictionary ul{
+    list-style: none;
+}
+/* Section FAQ */
+
 .section-six{
     background-color: var(--background-color-2);
-    padding: 50px;
+    padding: 20px 20px 50px 20px;
     box-sizing: border-box;
     position: relative; 
 
