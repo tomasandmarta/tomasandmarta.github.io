@@ -390,7 +390,19 @@ ul li{
 
 
   /* Responsive styles for smaller devices */
-  @media (max-width: 768px) {
+  @media (max-width: 1360px) {
+
+
+.section-main-photo, .section-map, .paragraph {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+}
+  @media (max-width: 544px) {
     .section-one{
     justify-content: space-between;
 }
@@ -444,6 +456,7 @@ ul li{
 .section-two {
     background-color: var(--white-color);
     height: auto;
+
 
 }
 
