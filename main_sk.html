@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas & Marta</title>
+
+        <!-- CSS style -->
+        <link rel="stylesheet" type="text/css" href="main_sk.css" />
+</head>
+<body>
+    <!-- Header -->
+
+    <header class="header">
+        <!-- <nav class="nav-menu"> -->
+        <div class="lang-menu">
+            <button class="lang selected-polish" onclick="window.location.href = 'main_pl.html';"></button>
+           <button class="lang selected-slovak" onclick="window.location.href = 'main_sk.html';"></button>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul class="items-menu">
+                    <li><a href="#slub" class="navbar-item navbar-item-left active">Svadba</a></li>
+                    <li><a href="#wesele" class="navbar-item">Svadobné party</a></li>
+                    <li><a href="#muzyka" class="navbar-item">Hudba</a></li>
+                    <li><a href="#slowniczek" class="navbar-item">Slovníček</a></li>
+                    <li><a href="#pytania" class="navbar-item">Otázky</a></li>
+                    <li><a href="#kontakt" class="navbar-item navbar-item-right">Kontakt</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+   
+    <!-- Main -->
+    <main>
+    <!-- Hero image -->
+    <div class="hero-image"></div>
+
+        <section id="slub" class="section-one">
+            <!--<div class="section-title"><img src="images/slub2.png" class="title"></div>-->
+            <div class="heading"><h1 class="title">Obrad</h1></div>
+            <div class="section-inside">
+                <div class="paragraph">
+                    <div class="czas"> datum: 7.10.2023 <br> hodina: 15:00</div>
+                    <div class="info"> <b> Kościół Matki Bożej Królowej Polski i św. Maternusa  <br> ul. Kościelna 3, 57-550 Stronie Śląskie </b><br><br>                        
+                    </div>
+                </div>
+                <div class="section-images">
+                    <img class="section-main-photo" src="images/kosciol.jpg" alt="Zdjęcie kościoła">
+                    <iframe class="section-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10195.478500573272!2d16.8730614!3d50.2943615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711e2a5b792efa3%3A0xa7ec42b62211d89e!2sParafia%20pw.%20M.B.%20Kr%C3%B3lowej%20Polski%20i%20%C5%9Bw.%20Maternusa!5e0!3m2!1spl!2ssk!4v1684673048221!5m2!1spl!2ssk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="wesele" class="section-two">            
+            <!--<div class="section-title"><img src="images/wesele2.png" class="title"></div>-->
+            <div class="heading"><h1 class="title">Party</h1></div>
+            <div class="section-inside">
+                <div class="paragraph">
+                    <div class="czas"> datum: 7.10.2023 <br> hodina: cca 16:00</div>
+                    <div class="info"> <b>Dworek Galosa <br> ul. Kościelna 8, 57-550 Stronie Śląskie </b><br><br>
+                                        
+                    </div>
+                </div>
+                <div class="section-images">
+                    <img class="section-main-photo" src="images/dworekgalosa.jpg" alt="Zdjęcie Dworku Galosa">
+                    <iframe class="section-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10195.136014371126!2d16.8731331!3d50.2959597!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711e2a5e7e4f937%3A0xe27610270036b071!2sDworek%20Galosa!5e0!3m2!1spl!2ssk!4v1684690939292!5m2!1spl!2ssk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-three">
+            <div class="heading"><h1 class="title">Harmonogram</h1></div>
+            <div class="timeline-container">
+                
+                    <div class="timeline-item">
+                        <div class="timeline-date">7.10.2023</div>
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Cesta</h6>
+                        <p>Cesta autom trvá približne 3,5 hodiny. 
+                           </p>
+                        </div>
+
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-date">7.10.2023</div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Ubytovanie </h6>
+                        <p> V sobotu po svadbe poskytujeme ubytovanie v dworku Galosa, parkovanie je možné priamo na mieste. Prosíme vás, aby ste si priniesli len uteráky.<br><br>
+                            V penzióne sú k dispozícii detské postieľky. <br> Po dohode môžete prísť aj so psom, ale musí zostať hlavne v izbe. <br><br>
+                            Je možné zaplatiť si ďalšiu noc pred alebo po svadbe. Cena na osobu je 80 Sk/noc (približne 18 eur) bez raňajok. Túto požiadavku je potrebné nahlásiť u nás alebo priamo v dworku Galosa najneskôr mesiac pred svadbou.
+                            <br> </p> 
+                        <!-- <a href="#nocleg">∘ Więcej informacji ∘</a> -->                     
+                        <a href="https://goo.gl/maps/wnJC3hcnDa5tWcnZ9"><br> ∘ Parkovanie na mape ∘</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-date">7.10.2023</div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Svadobná omša </h6>
+                        <p>Svadba sa začne o 15:00 v kostole.<br> Omša bude poľsko-slovenská.<br>
+                            Kostol je od svadobnej sály vzdialený 70 metrov, preto vám odporúčame, aby ste sa prešli pešo.</p>
+                        <a href="#slub"><br>∘ Lokalita ∘</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-date">7.10.2023</div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Svadobná párty </h6>
+                        <p>Po omši sa presunieme do dworku Galosa a párty sa začne prípitkom v záhrade alebo na sále.<Br>
+                            <br>DJ je z Poľska, ale bude hrať aj slovenskú a zahraničnú hudbu, preto sme pre vás pripravili zoznam skladieb, ktoré si môžete vypočuť. Bude to perfektné na cestu! 💃🏻🕺  </p>
+                        <a href="#wesele"><br>∘ Lokalita ∘</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-date">8.10.2023</div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Raňajky </h6>
+                        <p>Raňajky formou bufetu sa budú podávať v svadobnej sále od 9:00 do 12:00.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-circle"></div>
+                        <div class="timeline-date">8.10.2023</div>
+                        <div class="timeline-content">
+                        <h6 class="timeline-title"> Popravky </h6>
+                        <p>Začneme o 13:00 obedom a môžeme  "zlepšovať" až do 18:00. <br><br>
+                            Ak niekto kvôli dlhej ceste neplánuje zostať na obnove, odporúčame im, aby sa s nami aspoň naobedovali. </p>
+                        </div> 
+                    </div>
+                
+            </div>
+        
+
+        </section>
+
+
+        <section id="muzyka" class="section-four">
+            <div class="heading"><h1 class="title">Hudba</h1></div>
+            <div class="paragraph-full">
+                Pripravili sme pre vás playlist s poľskými a zahraničnými piesňami, ktoré sa môžu objaviť na našej svadbe. <br> Môžete si ho vypočuť na týchto stránkach ♫♫♫ <br><br>
+            </div>
+            <div class="section-playlists">
+                    <iframe id="music-widget"  src="https://open.spotify.com/embed/playlist/16RFNhgTTWSANBpcrGOGDa?utm_source=generator&theme=0" width="400" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe id="music-widget" 
+                     width="400" height="352" src="https://www.youtube.com/embed/Jw4A19cB9LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="music-widget" title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/11551462804" width="400" height="352" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section id="slowniczek" class="section-five">
+            <div class="heading"><h1 class="title">Glosar</h1></div>
+            <div class="paragraph-full">
+                <br>Slovenčina je podobná poľštine, ale niekedy vás význam niektorých slov môže prekvapiť. 🤭
+                <br> Preto sme pre vás spísali niekoľko pravidiel, ktoré vám pomôžu pri komunikácii s poľskými hosťami, ako aj užitočné slová. Samozrejme, je toho viac. Berte túto časť ako zaujímavosť.<br><br>
+            </div>
+
+            <div class="dictionary">
+                <h6 class="dictionary-first-h6">Slová týkajúce sa svadby</h6>
+                <ul class="dictionary-list-1">
+                    <li>Nevesta a ženích - Para Młoda </li>
+                    <li>Nevesta - Panna Młoda </li>
+                    <li>Ženích - Pan Młody </li>
+                    <li>Manželstvo - Małżeństwo </li>
+                    <li>Manželka - Żona </li>
+                    <li>Manžel - Mąż </li>
+                    <li>Oženiť sa - Żenić się </li>
+                    <li>Svadobná omša - Msza ślubna </li>
+                    <li>Svadba - Ślub </li>
+                    <li>Svadobná oslava / party - Wesele </li>
+                    <li>Prstene - Obrączki </li>
+                    <li>Kostol - Kościół </li>
+                    <li>Svedok - Świadek </li>
+                    <li>Svedkyňa - Świadkowa </li>
+                    <li>Rodina - Rodzina </li>
+                    <li>Kamaráti - Znajomi </li>
+                    <li>Kvety - Kwiaty </li>
+                    <li>Prípitok - Toast </li>
+                    <li>Želanie / Prianie - Życzenia </li>
+                    <li>Tanec - Taniec </li>
+                    <li>Prosím - Proszę </li>
+                    <li>Ďakujem - Dziękuję </li>
+                    <li>Prepáč - Przepraszam </li>
+                    <li>Čo piješ? - Co pijesz? </li>
+                    <li>Naliať ti niečo na pitie? - Nalać ci czegoś do picia? </li>
+                    <li>Dať ti niečo na jedenie? - Podać ci coś do jedzenia? </li>
+                    <li>Nech sa páči , páči sa -  Proszę (podając coś) </li>
+                    <li>Obed - Obiad </li>
+                    <li>Polievka - Zuoa </li>
+                    <li>Voda - Woda </li>
+                    <li>Čaj - Herbata </li>
+                    <li>Koláč - Ciasto </li>
+                    <li>Torta - Tort </li>
+                    <li>Fotky - Zdjęcia </li>
+                    <li>Pekné(y) šaty / oblek - Piękna(y) sukienka / garnitur </li>
+                    <li>Čepčenie - Oczepiny </li>
+                </ul>
+
+               <h6 class="dictionary-first">Słowa, na które warto uważać</h6>
+                <ul class="dictionary-list-1">
+                    <li>Frajerka - Dziewczyna </li>
+                    <li>Frajerka - Dziewczyna </li>
+                    <li>Frajer - Chłopak </li>
+                    <li>Slečna - Panna </li>
+                    <li>Panna - Dziewica </li>
+                    <li>Palica / atraktívna žena - Laska </li>
+                    <li>Powtórzyć - Opakovať </li>
+                    <li>Krzesło - Stolička </li>
+                    <li>Śmierdzieć - Pachnúť </li>
+                    <li>Smród - Zapach </li>
+                    <li>Stolec - Stolica </li>
+                    <li>Narkotyk - Droga </li>
+                    <li>Zamówić - Objednať </li>
+                    <li>Świnia - Prasa </li>
+                    <li>Dziadkowie - Stari rodičia </li>
+                    <li>Usłyszeć - Počuť </li>
+                    <li>Czuć - Citit’ </li>
+
+                </ul> 
+
+                <h6 class="dictionary-first">Všeobecné pokyny</h6>
+                <ul class="dictionary-list-1">
+                    <li>Namiesto "a" (napríklad manžel a manželka) Poliaci používajú "i".</li><br>
+                    <li>Písmená š, č, ž, ň znamenajú sz, cz, ż, ń.</li><br>
+                    <li>V Poľsku používame "pani/pan", keď chceme niekomu prejaviť úctu. Nie mówi się tam do nieznajomego w liczbie mnogiej. <br>Np. Czy rozumie pani polski język? - Rozumiete po poľsky?.</li><br>
+                    <li>V poľštine rozlišujeme písmená "i" a "y". Vyslovujú sa odlišne. </li><br>
+                    <li>Náhrady - často tam, kde v slovenskom jazyku máme:</li>
+                    <li>"h", v poľštine je to "g" - napríklad góra -> hora.</li>
+                    <li>-hla- v poľštine je to -ło-, -łó-. Príklad: głowa -> hlava.</li>
+                    <li>"u" alebo "ú" v poľštine je "ą", "ę" , napr.: oni pracują -> oni pracuju</li>
+                    <li>"r" alebo "-rie-" v slovenčine je "Rz". Príklad: rzeka-> rieka.</li><br>
+
+                    <li>Konjugácia slovesa 'byť' nám pomôže zoznámiť sa s budúcim a minulým časom.<br>
+                        Ja jestem, ty jesteś, on, ona, ono jest / My jesteśmy, wy jesteście, oni są.
+                    <li>V minulom čase nepoužívame konjugované sloveso "byť". Napríklad "hrať":
+                        Ja grałem, ty grałeś, on grał, ona grała, ono grało / my graliśmy, ty grałeś, oni grali.</li>
+                    <li>Budúci čas je už podobný. Napríklad:
+                        Ja będę grać, ty będziesz grać , on (ona, ono) będzie grać / my będziemy grać, we będziecie grać, oni będą grać.</li>
+                                       
+                </ul> 
+
+                <h6 class="dictionary-first">Spevy</h6>
+                <ul class="dictionary-list-1">
+                    <li>Pozrite si tu niektoré piesne, ktoré sa môžu spievať, ak svadobní hostia chcú, aby sa svadobný pár pobozkal.</li>
+                    <li><strong>link</strong></li> <br>
+                    <li>A tu je pieseň, ktorá sa môže objaviť na konci hudobných blokov.</li>
+                    <li><strong>link</strong></li>
+                </ul>
+
+
+            </div>
+        </section>
+
+
+        <section id="pytania" class="section-six">
+            <div class="heading"><h1 class="title">Otazky a odpovede</h1></div>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-1">
+                        <span>
+                            Do kedy treba potvrdiť účasť na svadbe?
+                        </span>
+                        <span class="icon"> 
+                            <img src="images/down-arrow-vector.svg" class="up" id="up1" alt="">                   
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-1">
+                        <p>Prosím, potvrďte svoj príchod do<strong> 25.08.2023</strong>. <br> Pri potvrdzovaní nám tiež oznámte, či prichádzate s deťmi (ak áno, v akom veku) a či si chcete rezervovať ďalšie ubytovanie.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-2">
+                        <span>
+                            Je možné prísť s deťmi?
+                        </span>
+                        <span class="icon">
+                            <img src="images/down-arrow-vector.svg" class="up" id="up2" alt="">
+
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-2">
+                        <p>Áno, je to možné. <br>
+                        Deti do 2 rokov budú sedieť vedľa rodičov, staršie deti pri samostatnom stole. <br>
+                        V ubytovacom objekte sa nachádzajú detské postieľky, ale nevieme presne, koľko ich je, takže ak ich budete potrebovať, dajte nám prosím vedieť.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-6">
+                        <span>
+                            Je možné prísť so psom?
+                        </span>
+                        <span class="icon">
+                            <img src="images/down-arrow-vector.svg" class="up" id="up2" alt="">
+
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-6">
+                        <p>Môžete, ale dajte nám vedieť. Musíme to individuálne prediskutovať s majiteľmi dworku Galosa. <br>
+                         Najdôležitejšie je, aby bol pes väčšinu času v miestnosti, nesmie vstúpiť do svadobnej sály. <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-3">
+                        <span>
+                            Aké bude jedlo, nápoje a alkohol?
+                        </span>
+                        <span class="icon">
+                            <img src="images/down-arrow-vector.svg" class="up" id="up3" alt="">
+
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-3">
+                        <p>Jedlo bude väčšinou na výber, takže veríme, že si každý nájde niečo pre seba.<br>
+                            Okrem nealkoholických nápojov bude k dispozícii aj káva a čaj na samostatnom stole v svadobnej sále.<br>
+                            Alkoholické nápoje zahŕňajú vodku, slivovicu, rum, víno, fľaškové pivo a ochutené pivo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-4">
+                        <span>
+                            Kedy sa ubytovať?
+                        </span>
+                        <span class="icon">
+                            <img src="images/down-arrow-vector.svg" class="up" id="up4" alt="">
+
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-4">
+                        <p>Ak prídete v sobotu, je najlepšie, ak tak urobíte pred omšou. Parkovanie je bezplatné, priamo pri dworku Galosa. <br> Ak máte noc naviac pred 7.10.2023, ubytovanie je od 18.00 hod. Ak máte noc navyše pred 7.10.2023, ubytovanie je od 18:00. Popravky z predchádzajúcej svadby môžu pokračovať až do tejto hodiny.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" id="accordion-button-5">
+                        <span>
+                            Možno si pred alebo po svadbe rezervovať ubytovanie navyše?
+                        </span>
+                        <span class="icon">
+                            <img src="images/down-arrow-vector.svg" class="up" id="up3" alt="">
+
+                        </span>
+                    </button>
+                    <div class="accordion-content" id="accordion-content-5">
+                        <p>Áno, je to možné. Cena je 80 zł (cca 18 eur) za noc pre dospelú osobu. Ak si ho chcete rezervovať, dajte nám vedieť.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </section>
+
+        <section id="kontakt" class="section-seven">
+            <div class="heading"><h1 class="title">Kontakt</h1></div>
+                <div class="contact-info">
+                    <div class="name"><h6>Marta</h6>tel. +48 886 659 639</div>
+                    <div class="name"><h6>Tomáš</h6>tel. +421 917 739 358</div>
+                </div>
+            <div class="section-photo"></div>
+
+        </section>
+
+        <div class="section-photo">
+            <img src="images/zdjęcie-40.jpg" style="width: 100%; height: 80vh;">
+        </div>
+
+    </main>
+
+    <footer>
+
+            <img src="images/M+T.png" id="MandT">
+ 
+    </footer>
+   
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="main_sk.js"></script>
+    
+
+
+    
+</body>
+</html>

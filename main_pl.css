@@ -361,6 +361,9 @@ ul li{
 .paragraph {
     text-align: right;
     padding: 0 30px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
   .czas {
@@ -374,6 +377,7 @@ ul li{
   .info {
     font-family: var(--body-font-family);
     padding: 5px 10px;
+    font-size: 14px;
 
   }
 
@@ -543,6 +547,10 @@ ul li{
 	line-height: 22px;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
 /* responsive */
 @media(max-width: 767px){
@@ -574,7 +582,7 @@ ul li{
 }
 
 .paragraph-full {
-    margin: 5px 10px 40px 10px;
+    margin: 5px 10px 30px 10px;
     width: 100%;
     text-align: center;
 }
@@ -586,7 +594,7 @@ ul li{
 }
 
 #music-widget {
-    margin: 0 25px 0 25px;
+    margin: 0 25px 20px 25px;
     max-width: 100vh;
     border-radius:12px;
 }
@@ -631,9 +639,13 @@ ul li{
 
 .section-five{
     background-color: var(--white-color);
-    padding: 20px 150px 50px 150px;
+    padding: 20px 100px 50px 100px;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
     height: auto;
+    align-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -644,7 +656,6 @@ ul li{
     column-count: 4;
     column-width: 250px;
     column-rule: 1px dotted  rgb(203, 167, 151);
-    padding-left: 50px;
 }
 
 .dictionary-first-h6{

@@ -42,15 +42,14 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0.7;
-  margin: 15px;
   background-color: RGBA(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 35px;
+  padding: 100px;
   margin: 20px;
 }
 
 .time small {
-  font-size: 20px;
+  font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -58,7 +57,7 @@ body {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   line-height: 100%;
-  font-size: 100px;
+  font-size: 150px;
   padding: 10px;
   margin: 10px;
 }
@@ -88,10 +87,11 @@ body {
 }
 
 .lang {
-  font-size: 30px;
-  width: 200px;
+  font-size: 60px;
+  width: 400px;
   font-family: 'Montserrat', sans-serif;
   display: block;
+
   margin: 20px;
   opacity: 0.7;
   letter-spacing: 0px;
