@@ -64,7 +64,7 @@ $(document).ready(function(){
         $('#accordion-content-1').hide();
         $('#accordion-content-6').hide();
         $('#up5').toggleClass('rotate');
-        $('#up4').toggleClass('rotate');
+        $('#up4').removeClass('rotate');
         $('#up2').removeClass('rotate');
         $('#up3').removeClass('rotate');
         $('#up1').removeClass('rotate');
@@ -78,7 +78,7 @@ $(document).ready(function(){
         $('#accordion-content-1').hide();
         $('#accordion-content-5').hide();
         $('#up6').toggleClass('rotate');
-        $('#up4').toggleClass('rotate');
+        $('#up4').removeClass('rotate');
         $('#up2').removeClass('rotate');
         $('#up3').removeClass('rotate');
         $('#up1').removeClass('rotate');
