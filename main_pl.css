@@ -332,7 +332,7 @@ ul li{
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .hero-image {
         background-image: url('images/7.10.2023_mobile1.png');
         /* background-size: cover; */
@@ -411,11 +411,11 @@ ul li{
 
 
   /* Responsive styles for smaller devices */
-  @media (max-width: 1360px) {
+  @media (max-width: 1100px) {
 
 
 .section-main-photo, .section-map, .paragraph {
-    width: 300px;
+    width: 250px;
     height: 200px;
     margin: 5px;
     border-radius: 5px;
@@ -656,13 +656,14 @@ a {
 /* responsive */
 @media(max-width: 1100px){
 .section-four {
-    padding: 15px 15px 25px 15px;
+    padding: 15px 15px 0 15px;
+    height: auto;
 }
 
 .section-playlists {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-content: center;
     flex-wrap: wrap;
 
@@ -683,6 +684,29 @@ a {
     max-height: 40vh; */
     max-width: 80vw;
 
+}
+}
+
+@media(max-width: 566px){
+
+    #music-widget {
+        margin: 10px 10px 10px 10px;
+        height: auto;
+        min-width: 100px;
+        width: auto;
+        max-width: 80vw;
+
+    }
+
+    .section-playlists {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .section-four{
+        height: auto;
+        position: relative; 
+        padding: 0 15px 0 15px;
 }
 }
 
