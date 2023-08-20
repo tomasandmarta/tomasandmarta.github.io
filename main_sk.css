@@ -871,6 +871,11 @@ a {
     font-size: 20px;
 }
 
+.formular {
+    text-align: center;
+    margin: 0 30px 30px 30px;
+}
+
  /*
 .section-photo {
    background-image: url('images/zdjęcie-40.jpg');
